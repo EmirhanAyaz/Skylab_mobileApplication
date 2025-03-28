@@ -1,13 +1,10 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-# Dart dosyalarını öncelikli yap
-*.dart linguist-detectable=true
-
-# CMake dosyalarını ve native kodları GitHub dil analizinden çıkar
-CMakeLists.txt linguist-detectable=false
-*.cmake linguist-detectable=false
-android/** linguist-vendored
-ios/** linguist-vendored
-linux/** linguist-vendored
-macos/** linguist-vendored
-windows/** linguist-vendored
+echo "*.dart linguist-detectable=true" > .gitattributes
+echo "*.cmake linguist-detectable=false" >> .gitattributes
+echo "CMakeLists.txt linguist-detectable=false" >> .gitattributes
+echo "android/** linguist-vendored" >> .gitattributes
+echo "ios/** linguist-vendored" >> .gitattributes
+echo "linux/** linguist-vendored" >> .gitattributes
+echo "macos/** linguist-vendored" >> .gitattributes
+echo "windows/** linguist-vendored" >> .gitattributes
