@@ -4,3 +4,5 @@
 *.cpp linguist-detectable=false
 *.h linguist-detectable=false
 *.c linguist-detectable=false
+android/** linguist-vendored
+ios/** linguist-vendored
