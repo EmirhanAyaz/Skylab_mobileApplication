@@ -1,5 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=Auto
-echo "*.dart linguist-detectable=true" > .gitattributes
-echo "* linguist-detectable=false" >> .gitattributes
-echo "!*.dart linguist-detectable=true" >> .gitattributes
+*.dart linguist-detectable
+*.cpp linguist-detectable=false
+*.cpp linguist-vendored
+*.h linguist-vendored
