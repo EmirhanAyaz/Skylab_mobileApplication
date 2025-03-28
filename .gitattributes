@@ -1,10 +1,5 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+* text=Auto
 echo "*.dart linguist-detectable=true" > .gitattributes
-echo "*.cmake linguist-detectable=false" >> .gitattributes
-echo "CMakeLists.txt linguist-detectable=false" >> .gitattributes
-echo "android/** linguist-vendored" >> .gitattributes
-echo "ios/** linguist-vendored" >> .gitattributes
-echo "linux/** linguist-vendored" >> .gitattributes
-echo "macos/** linguist-vendored" >> .gitattributes
-echo "windows/** linguist-vendored" >> .gitattributes
+echo "* linguist-detectable=false" >> .gitattributes
+echo "!*.dart linguist-detectable=true" >> .gitattributes
