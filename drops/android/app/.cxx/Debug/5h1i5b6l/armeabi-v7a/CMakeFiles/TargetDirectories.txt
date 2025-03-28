@@ -1,0 +1,2 @@
+C:/Kullanicilar/emirh/OneDrive/Belgeler/Projeler/belaamk/android/app/.cxx/Debug/5h1i5b6l/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Kullanicilar/emirh/OneDrive/Belgeler/Projeler/belaamk/android/app/.cxx/Debug/5h1i5b6l/armeabi-v7a/CMakeFiles/rebuild_cache.dir
